@@ -1,5 +1,3 @@
-- Driver becomes Navigator
-- Navigator becomes Driver
 - Expert AFK
 - Think out loud
 - Respect the Code
