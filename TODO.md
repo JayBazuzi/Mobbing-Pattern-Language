@@ -1,5 +1,4 @@
 - Respect the Code
 - Respect the Coders
-- Take Five
 - Smart Input Device
 - Musical Chairs
