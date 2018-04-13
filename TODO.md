@@ -1,4 +1,3 @@
-- Think out loud
 - Respect the Code
 - Respect the Coders
 - Take Five
