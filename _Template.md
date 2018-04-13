@@ -1,7 +1,3 @@
-# Name
-
-# Intent
-
 # Also Known As
 
 # Context
