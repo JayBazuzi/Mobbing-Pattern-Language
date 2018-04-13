@@ -1,4 +1,3 @@
-- Many Navigators
 - Driver becomes Navigator
 - Navigator becomes Driver
 - Expert AFK
