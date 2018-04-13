@@ -1,8 +1,11 @@
-- Quickest Rotation
 - Single Navigator
 - Many Navigators
+- Driver becomes Navigator
+- Navigator becomes Driver
 - Expert AFK
 - Think out loud
 - Respect the Code
 - Respect the Coders
 - Take Five
+- Smart Input Device
+- Musical Chairs
