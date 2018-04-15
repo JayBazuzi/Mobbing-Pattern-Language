@@ -13,6 +13,7 @@ Don't let the Hippo (Highest Paid Person's Opinion) or loudest person win.
 # How To
 
 - Try each idea for real.
+- Time-box the experiment.
 - Use Fist-of-Five or Roman Voting to pick one.
 
 # Consequences
