@@ -4,7 +4,7 @@
 
 You already have reliably bite-sized events.
 
-Requires [Musical Chairs](Musical Chairs.md).
+Requires [Musical Chairs].
 
 # Purpose
 
