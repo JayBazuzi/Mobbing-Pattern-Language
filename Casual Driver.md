@@ -16,7 +16,7 @@ Optimize for more conversation than action.
 
 Don't bother with a timer and with explicit roles. Everyone is free to speak ideas, including the Driver. The Driver is free to carry out their own ideas, but must announce them first
 
-Pay attention to signs that this approach has stopped working, and switch back to more structured moobing:
+Pay attention to signs that this approach has stopped working, and switch back to more structured mobbing:
 
 - Someone is not fully engaged.
 - The Driver is doing their own thing without speaking their idea to the group.
@@ -24,5 +24,7 @@ Pay attention to signs that this approach has stopped working, and switch back t
 - An action answer a question more quickly and effectively.
 
 # Consequences
+
+This is risky, and usually an anti-pattern called "Not Mobbing".
 
 # Collaborators
