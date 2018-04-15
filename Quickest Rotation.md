@@ -8,6 +8,7 @@ Quickest Rotation
 - Keep mobbers engaged
 - Prevent driver and navigator from becoming overwhelmed
 - Prevent driver and navigator from becoming frustrated
+- Ensure whole-team ownership
 
 # Context
 
@@ -23,25 +24,28 @@ Make it possible to work with a 1-minute rotation timer, and get everyone used t
 
 Run Musical Chairs to people warmed up and in the flow.
 
-Set a 5 minute mob timer. Run 1 iteration, either in a kata or in real work. 
+Set a 15 minute mob timer. Run 1 iteration, either in a kata or in real work. 
 
 Have a micro-retro on friction you bumped into that makes this rotation time difficult. Some areas to consider:
 
 - build and test time
 - slow driver swap
 
-Reduce the timer to 4 minutes and run 1 or 2 more iterations. Repeat the micro-retro.
+Reduce the timer to 8 minutes and run another rotation. Repeat the micro-retro.
+
+Repeat with 4 minutes, then 3, 2, 1.
 
 Continue shrinking the iteration time until you bump into barrier. Retro to address that barrier, and shrink again.
 
 You should be able to get to smooth development with a 1 minute timer when working on a kata or similar quick build-and-test project.
 
 
-
 # Collaborators
 
 - Smart Input Device
 - Musical Chairs
+- Rotate on Event
 
 # Consequences
 
+Forces each driver to continue the thought of the previous driver.
