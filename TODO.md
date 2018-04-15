@@ -5,4 +5,3 @@
 - in an arc
 - same screen
 - see faces
-- least-privileged idea
