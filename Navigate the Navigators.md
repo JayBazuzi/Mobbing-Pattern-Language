@@ -1,7 +1,3 @@
-# Also Known As
-
-- Navigate the Navigators
-
 # Context
 
 One member of the mob is an expert in the work at hand, while no one else understands how to proceed. 
@@ -19,6 +15,10 @@ Fix both of these problems.
 # How To
 
 Have the expert position themselves outside of the mob. The expert's job is to speak at the highest level of understanding of the mob, and allow the mob to figure out the mechanics.
+
+The expert talks in questions. Ask the question that will probe the thing that you want the mob to get to. Two questions that often help:
+- Does it compile?
+- Does it work?
 
 # Consequences
 
