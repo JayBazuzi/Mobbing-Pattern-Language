@@ -2,7 +2,6 @@
 - Respect the Coders
 - Smart Input Device
 - shoulder to shoulder
-- in an arn
+- in an arc
 - same screen
-
 - see faces
