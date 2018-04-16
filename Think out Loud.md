@@ -26,7 +26,9 @@ Fake it 'till you Make it.
 
 Derivation
 
-There is value in just acknowledging that you are confused.
+There is value in just acknowledging that you are confused. 
+
+Alternatively, consider suggesting something wacky. This can act to free up other people's thinking, e.g. "Well that's interesting. Maybe we could do ..." 
 
 # Consequences
 
