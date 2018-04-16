@@ -33,7 +33,7 @@ Everyone is involved, but not necessarily on the same thing. There is a high lev
 
 # Examples
 
-One person says "Make a function that loops through those results, and filter based on time." While the driver is implementing that method, someone else is researching the API for how we're going to wire this up to the GUI, and someone else is at the whiteboard sketching the next step. The mob is still glancing at the driver to make sure they are still on the right track.
+One person says "Make a function filters those results based on time." While the Driver is implementing that method, someone else is researching the API for how we're going to wire this up to the GUI, and someone else is at the whiteboard sketching the next step. The mob is still glancing at the driver to make sure they are still on the right track.
  
 # Consequences
 
