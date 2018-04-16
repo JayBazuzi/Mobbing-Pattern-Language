@@ -6,6 +6,14 @@ As a pattern language, you should not try to apply all of these patterns at once
 
 You should also check out the Mob Programming Role Playing Game: https://github.com/willemlarsen/mobprogrammingrpg
 
+# What makes a good pattern?
+
+- It should not be obvious. If it were obvious, we wouldn't need to talk about it.
+
+- It should not be universal. It applies in one context, but in another context it has zero or negative value
+
+- It should be concrete and actionable. Principles matter, but aren't part of the pattern language.
+
 # Make it better
 
 What in here is unclear? What looks wrong? What is missing? 
