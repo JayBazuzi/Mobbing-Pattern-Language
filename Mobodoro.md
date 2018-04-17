@@ -1,6 +1,10 @@
 # Context
 
+Intermediate mob that is ready to tune their process.
+
 # Purpose
+
+Improve quickly, in tiny increments all day long.
 
 # How To
 
