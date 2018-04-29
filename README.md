@@ -10,9 +10,9 @@ You should also check out the Mob Programming Role Playing Game: https://github.
 
 - It should not be obvious. If it were obvious, we wouldn't need to talk about it.
 
-- It should not be universal. It applies in one context, but in another context it has zero or negative value.
+- Ideally, it should not be universal. It applies in one context, but in another context it has zero or negative value.
 
-- It should be concrete and actionable. Principles matter, but aren't part of the pattern language.
+- Ideally, it should be concrete and actionable. Principles matter, but aren't part of the pattern language.
 
 These aren't hard rules, but the better patterns are likely to meet all three.
 
