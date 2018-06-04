@@ -8,12 +8,14 @@ Improve quickly, in tiny increments all day long.
 
 # How To
 
-Set your mob rotation timer at (25 minutes) / (number of people). 
+Work in 25-minute intervals, starting with a couple minutes of planning, followed by a standard mob rotation, and ending with a micro-retrospective. 
 
-When 25 minutes is up (everyone has had a turn as Driver), do a 5-minute retrospective.
-
-Then take a 5 minute break. Don't talk about the work during this break.
+Between intervals take a break. Everyone *must* leave the mobbing area.
 
 # Consequences
 
 # Collaborators
+
+# References
+
+https://barneydellar.blogspot.com/2018/05/mobodoro.html
