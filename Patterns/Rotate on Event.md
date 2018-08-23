@@ -8,7 +8,7 @@ Requires [Musical Chairs].
 
 # Purpose
 
-You want to create a feeling of individual accomplishment for each mob, instead of the sense of shared accomplishment for the mob.
+You want to create a feeling of individual accomplishment for each mobber, instead of the sense of shared accomplishment for the mob.
 
 # How To
 
