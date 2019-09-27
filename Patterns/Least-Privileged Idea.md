@@ -17,6 +17,6 @@ What determines least status is contextual.
 # Consequences
 
 - Least status person feels listened to and part of the team. This helps them with potential imposter syndrome.
-- Opens the door to gettng to getting genuinely new ideas.
+- Opens the door to getting genuinely new ideas.
 
 # Collaborators
