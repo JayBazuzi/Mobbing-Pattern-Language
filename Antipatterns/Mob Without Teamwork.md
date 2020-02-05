@@ -2,9 +2,8 @@
 Low-trust mobbing
 
 # Context
-A group of developers works well independently by avoiding making decisions
-collectively. When possible, they divide work at well-defined interfaces and so
-avoid making design decitions together.
+A group of developers works well independently.  When possible, they divide work at well-defined interfaces and so
+avoid making design decisions together.
 
 This is a work-around for not being practiced at respectful listening, mutual
 trust, and accepting one anothers' ideas -- in short, for poor teamwork.
