@@ -1,4 +1,9 @@
+<ul>
 {% for pattern in site.patterns %}
-  <h2>{{ pattern.name }} - {{ pattern.position }}</h2>
-  <p>{{ pattern.content | markdownify }}</p>
+  <li>
+    <a href="{{ pattern.url }}">
+      {{ pattern.title }}
+    </a>
+  </li>
 {% endfor %}
+</ul>
