@@ -1,3 +1,5 @@
+---
+---
 # Context
 
 A group that has never mobbed before, or is relatively new to mobbing / new to each other / hasn't explored how we might mob in a disciplined way.
