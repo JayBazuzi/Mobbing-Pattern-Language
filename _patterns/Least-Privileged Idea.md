@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 # Also Known As
 
