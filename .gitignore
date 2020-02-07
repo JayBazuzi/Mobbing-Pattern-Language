@@ -258,4 +258,7 @@ paket-files/
 
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
-*.pyc
+*.pyc_site
+
+# Jekyll (Github Pages)
+_site
