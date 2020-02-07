@@ -20,9 +20,9 @@ Begin with the mechanics of mobbing: one computer, rotate drivers periodically.
 
 - Probably don't do Strong Style (nothing goes into the computer unless it goes
   through somebody else's hands)
-- Probably don't do the [Role Playing Game](../Patterns/Role%20Playing%20Game.md)
-- Probably don't do [Take Five](../Patterns/Take%20Five.md)
-- Definitely don't do [Mobodoro](../Patterns/Mobodoro.md)
+- Probably don't do the [Role Playing Game](../patterns/Role%20Playing%20Game.md)
+- Probably don't do [Take Five](../patterns/Take%20Five.md)
+- Definitely don't do [Mobodoro](../patterns/Mobodoro.md)
 
 # Resulting Context
 - when you're at the keyboard, you can't think -- you get stuck on very simple
@@ -43,7 +43,7 @@ that help with that:
  - Use [Strong Style
    driver/navigator](http://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html)
    -- "For an idea to go from your head into the computer it MUST go through someone else's hands"
- - Use the [Role Playing Game](../Patterns/Role%20Playing%20Game.md) with an emphasis on the
+ - Use the [Role Playing Game](../patterns/Role%20Playing%20Game.md) with an emphasis on the
    Sponsor and the Traffic Cop role
  - Pursue any other avenue you have for improving collaboration and teamwork and
    increasing trust between your group members
