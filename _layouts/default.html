@@ -4,11 +4,14 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body class='main'>
-    <div class='main__navigation'>
+    <div class='navigation'>
       {% include _navigation.html %}
     </div>
 
-    <div class='main__content'>
+    <div class='content'>
+      {% if page.collection %}
+        <h1 class='content__title'>{{ page.collection | capitalize }}: {{page.title }}</h1>
+      {% endif %}
       {{ content }}
     </div>
   </body>

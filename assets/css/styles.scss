@@ -7,11 +7,15 @@
   grid-template-areas: 'nav content';
   grid-gap: 20px;
 
-  &__navigation {
+  .navigation {
     grid-area: nav;
   }
 
-  &__content {
+  .content {
     grid-area: content;
+    
+    &__title {
+      text-decoration: underline;
+    }
   }
 }
