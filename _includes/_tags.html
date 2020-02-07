@@ -7,7 +7,7 @@
 
 <span>[
   {% for tag in rawtags %}
-    {{ tag }}
+    <a href='{{ '/tag/' | append:tag | relative_url }}'>{{ tag }}</a>
   {% endfor %}
 ]</span>
 
