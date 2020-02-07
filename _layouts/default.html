@@ -1,13 +1,15 @@
 <!doctype html>
 <html>
   <head>
+    <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
-  <body>
-  </body>
-    {% include _navigation.html %}
+  <body class='main'>
+    <div class='main__navigation'>
+      {% include _navigation.html %}
+    </div>
 
-    <hr/>
-
-    {{ content }}
+    <div class='main__content'>
+      {{ content }}
+    </div>
   </body>
 </html>

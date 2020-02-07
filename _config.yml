@@ -5,3 +5,5 @@ collections:
     output: true
   metapatterns:
     output: true
+sass:
+  style: compact

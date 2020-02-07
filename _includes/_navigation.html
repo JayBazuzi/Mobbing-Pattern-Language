@@ -1,6 +1,6 @@
 <ul>
   <li><a href='{{ '/'              | relative_url }}'>Home</a></li>
-  <li><a href='{{ '/antipatterns/' | relative_url }}'>Antipatterns</a></li>
-  <li><a href='{{ '/patterns/'     | relative_url }}'>Patterns</a></li>
-  <li><a href='{{ '/metapatterns/' | relative_url }}'>Metapatterns</a></li>
+  <li>{% include _navigation-for-collection.html collection='patterns' %}</li>
+  <li>{% include _navigation-for-collection.html collection='metapatterns' %}</li>
+  <li>{% include _navigation-for-collection.html collection='antipatterns' %}</li>
 </ul>

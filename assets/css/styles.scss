@@ -1,0 +1,17 @@
+---
+---
+
+.main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 'nav content';
+  grid-gap: 20px;
+
+  &__navigation {
+    grid-area: nav;
+  }
+
+  &__content {
+    grid-area: content;
+  }
+}
