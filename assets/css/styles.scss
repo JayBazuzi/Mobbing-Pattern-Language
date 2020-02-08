@@ -18,6 +18,10 @@
 
   .navigation {
     grid-area: navigation;
+
+    .navigation__collection--highlighted {
+      background-color: #55669966;
+    }
   }
 
   .header {
@@ -33,12 +37,6 @@
   }
 }
 
-.tags-page {
-  .navigation__collection li:not(.navigation__collection--visible) {
-    display: none;
-  }
-}
-
 .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -47,7 +45,11 @@
   &__tag {
     border-radius: 5px;
     padding: 2px;
-    background-color: #66666666;
+    background-color: #CCCCCC66;
     margin: 2px;
+
+    &--active {
+      background-color: #55669966;
+    }
   }
 }
