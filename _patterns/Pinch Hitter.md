@@ -7,7 +7,7 @@ layout: default
 
 # Context
 
-Someone doesn't want to be in the mob but doesn't want to leave completely either. Maybe a newbie, or a neurodiverse person, or a product owner.
+Someone doesn't want to be in the mob but doesn't want to leave completely either. Maybe a newbie, or a neuroatypical person, or a product owner.
 
 # Purpose
 
