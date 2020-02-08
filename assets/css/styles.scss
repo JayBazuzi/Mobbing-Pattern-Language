@@ -4,18 +4,25 @@
 .main {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-areas: 'nav content';
   grid-gap: 20px;
 
+  &--without-nav {
+    grid-template-columns: 1fr;
+  }
+
   .navigation {
-    grid-area: nav;
   }
 
   .content {
-    grid-area: content;
     
     &__title {
       text-decoration: underline;
     }
+  }
+}
+
+.tags-page {
+  .navigation__collection li:not(.navigation__collection--visible) {
+    display: none;
   }
 }

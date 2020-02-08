@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body class='main--without-nav'>
+    <div class='content'>
+      {% if page.collection %}
+        <h1 class='content__title'>{{ page.collection | capitalize }}: {{page.title }}</h1>
+      {% endif %}
+      {{ content }}
+    </div>
+  </body>
+</html>
