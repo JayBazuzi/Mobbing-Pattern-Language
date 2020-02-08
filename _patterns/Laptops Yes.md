@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Laptops? Yes!
 ---
 # Also Known As
 
