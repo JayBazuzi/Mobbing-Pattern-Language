@@ -4,9 +4,12 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body class='main'>
-    {% include _navigation.html %}
+    {% unless page.suppress-navigation %}
+      {% include _navigation.html %}
+    {% endunless %}
 
     {% include _header.html %}
+
     <div class='content'>
       
       {% if page.collection %}
