@@ -1,0 +1,9 @@
+<div class='tag-list'>
+  {% for tag in include.tags %}
+    {% if tag != '' %}
+      <div class='tag-list__tag'>
+        <a href='{{ '/tags.html#' | append:tag | relative_url }}'>{{ tag }}</a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -16,9 +16,7 @@
         <h1 class='content__title'>{{ page.collection | capitalize }}: {{page.title }}</h1>
       {% endif %}
 
-      <div class='tag-list'>
-        {{ page.tags }}
-      </div>
+      {% include _tag-list.html tags=page.tags %}
 
       {{ content }}
     </div>

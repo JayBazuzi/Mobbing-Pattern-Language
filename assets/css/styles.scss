@@ -3,7 +3,7 @@
 
 .main {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 300px 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
     'header     header'
@@ -36,5 +36,18 @@
 .tags-page {
   .navigation__collection li:not(.navigation__collection--visible) {
     display: none;
+  }
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+
+  &__tag {
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #66666666;
+    margin: 2px;
   }
 }

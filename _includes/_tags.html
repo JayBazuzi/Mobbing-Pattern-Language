@@ -3,10 +3,6 @@
   {% assign ttags = item.tags | join:'|' | append:'|' %}
   {% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort | uniq %}
 
-<span>[
-  {% for tag in rawtags %}
-    <a href='{{ '/tags.html#' | append:tag | relative_url }}'>{{ tag }}</a>
-  {% endfor %}
-]</span>
+{% assign tags = rawtags | split:'|' | sort | uniq %}
+{% include _tag-list.html tags=tags%}
