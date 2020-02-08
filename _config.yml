@@ -7,3 +7,7 @@ collections:
     output: true
 sass:
   style: compact
+markdown: kramdown
+kramdown:
+  # Start Markdown headers at h3
+  header_offset: 2

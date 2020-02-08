@@ -4,16 +4,28 @@
 .main {
   display: grid;
   grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'header     header'
+    'navigation content';
   grid-gap: 20px;
 
   &--without-nav {
-    grid-template-columns: 1fr;
+    grid-template-areas:
+      'header  header'
+      'content content';
   }
 
   .navigation {
+    grid-area: navigation;
+  }
+
+  .header {
+    grid-area: header;
   }
 
   .content {
+    grid-area: content;
     
     &__title {
       text-decoration: underline;
