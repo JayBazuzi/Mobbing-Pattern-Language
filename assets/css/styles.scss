@@ -3,11 +3,14 @@
 
 :root {
   --color-theme-1: #556699;
-  --color-theme-2: #CCCCCC;
+  --color-theme-2: #995566;
+  --color-gray-0: #FFF;
+  --color-gray-1: #CCC;
   --desktop-nav-width: 300px;
 }
 
 .main {
+  background-color: var(--color-gray-0);
   display: grid;
   grid-template-columns: var(--desktop-nav-width) 1fr;
   grid-template-rows: auto 1fr;
@@ -18,9 +21,14 @@
 
   .navigation {
     grid-area: navigation;
+    border-right: 4px solid var(--color-theme-2);
 
     .navigation__collection--highlighted {
       background-color: var(--color-theme-1);
+    }
+
+    .navigation__toggle {
+      display: none;
     }
   }
 
@@ -35,6 +43,50 @@
       text-decoration: underline;
     }
   }
+
+  @media (max-width: 800px) {
+    grid-template-columns: 10px 1fr;
+
+    .navigation {
+      padding-left: 10px;
+      position: relative;
+
+      & > *:not(.navigation__toggle) {
+        display: none;
+      }
+
+      .navigation__toggle {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 15px;
+        right: -15px;
+        --svg-line: var(--color-theme-2);
+        --svg-background: var(--color-gray-0);
+
+        &:hover {
+          --svg-background: var(--color-gray-1);
+        }
+      }
+    }
+  }
+  &.main--with-navigation {
+    .navigation__toggle {
+      transform: scaleX(-1);
+    }
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr 0;
+
+      .navigation > *:not(.navigation__toggle) {
+        display: initial;
+      }
+
+      .content {
+        overflow: hidden;
+      }
+    }
+  }
 }
 
 .tag-list {
@@ -45,11 +97,36 @@
   &__tag {
     border-radius: 5px;
     padding: 2px;
-    background-color: var(--color-theme-2);
+    background-color: var(--color-gray-1);
     margin: 2px;
 
     &--active {
       background-color: var(--color-theme-1);
     }
   }
+}
+
+.button--reset {
+  /* From https://gist.github.com/MoOx/9137295 */
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
+
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
 }

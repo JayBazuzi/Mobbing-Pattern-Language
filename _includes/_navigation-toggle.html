@@ -1,0 +1,17 @@
+<button class='button--reset navigation__toggle' onclick='toggleNavigation()'>
+  <script>
+    function toggleNavigation() {
+      document.querySelector('.main').classList.toggle('main--with-navigation');
+      deselectButton(document.querySelector('.navigation__toggle'));
+    }
+
+    function deselectButton(button) {
+      button.disabled = true;
+      button.disabled = false;
+    }
+  </script>
+  <svg viewbox="0 0 100 100">
+    <circle cx="50" cy="50" r="45" stroke-width="5" stroke="var(--svg-line, #000)" fill="var(--svg-background)" />
+    <path d="M40 20 L80 50 L40 80" stroke-width="10" stroke="var(--svg-line, #000)" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+</button>
