@@ -1,26 +1,26 @@
 ---
 ---
 
+:root {
+  --color-theme-1: #556699;
+  --color-theme-2: #CCCCCC;
+  --desktop-nav-width: 300px;
+}
+
 .main {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: var(--desktop-nav-width) 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
     'header     header'
     'navigation content';
   grid-gap: 20px;
 
-  &--without-nav {
-    grid-template-areas:
-      'header  header'
-      'content content';
-  }
-
   .navigation {
     grid-area: navigation;
 
     .navigation__collection--highlighted {
-      background-color: #55669966;
+      background-color: var(--color-theme-1);
     }
   }
 
@@ -45,11 +45,11 @@
   &__tag {
     border-radius: 5px;
     padding: 2px;
-    background-color: #CCCCCC66;
+    background-color: var(--color-theme-2);
     margin: 2px;
 
     &--active {
-      background-color: #55669966;
+      background-color: var(--color-theme-1);
     }
   }
 }
