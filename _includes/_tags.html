@@ -1,0 +1,8 @@
+{% assign rawtags = "" %}
+{% for item in site.patterns %}
+  {% assign ttags = item.tags | join:'|' | append:'|' %}
+  {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+
+{% assign tags = rawtags | split:'|' | sort | uniq %}
+{% include _tag-list.html tags=tags %}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel='stylesheet' href='{{ 'assets/css/styles.css' | relative_url }}'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  </head>
+  <body class='main'>
+    {% unless page.suppress-navigation %}
+      {% include _navigation.html %}
+    {% endunless %}
+
+    {% include _header.html %}
+
+    <div class='content'>
+      
+      {% if page.collection %}
+        <h1 class='content__title'>{{ page.collection | capitalize }}: {{page.title }}</h1>
+      {% endif %}
+
+      {% include _tag-list.html tags=page.tags %}
+
+      {{ content }}
+    </div>
+  </body>
+</html>
