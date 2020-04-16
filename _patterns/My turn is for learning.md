@@ -45,14 +45,14 @@ Consider this dialog:
 *(After making a treasure map, trying Navigate the navigator, encouraging them to
 pause and ask for advice when they are navigating)*
 
-Learner: I'm sorry guys, I can't do this. I'd like to work solo to figure some
-stuff out before I try this again.
-Team: Ok, I understand this can be overwhelming and there is a lot to learn. Can
-we try one more thing before you split off and study solo? Let's continue
-with the rotation, but **when it's your turn to navigate, if you don't know what
-to do, we can take as much as the entire rotation for learning. Ask your
-questions, we'll whiteboard, we'll teach. Then, when the timer is up we will go
-back to the code.**
+> **Learner:** I'm sorry guys, I can't do this. I'd like to work solo to figure some
+> stuff out before I try this again.  
+> **Team:** Ok, I understand this can be overwhelming and there is a lot to learn. Can
+> we try one more thing before you split off and study solo?  
+> Let's continue with the rotation, but **when it's your turn to navigate, if
+> you don't know what to do, we can take as much as the entire rotation for
+> learning.** Ask your questions, we'll whiteboard, we'll teach. Then, when the
+> timer is up we will go back to the code.
 
 Caution: this can come accross as "don't ask questions when it's not your turn".
 It's supposed to be the opposite. It's "we want you with us, and we will make 10 minutes out of
