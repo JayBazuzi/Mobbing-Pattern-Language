@@ -16,6 +16,8 @@ Only ask questions where the answer isn't obvious (avoid leading questions).
 
 If the mob has a facilitator, the facilitator can ask questions of the mob to lead them along, so the driver can focus on execution questions / verifying the intent of the mob. "Did you want me to click here?"
 
+Can be combined either with [Single Navigator] or [Navigate the Navigators].
+
 # Consequences
 
 # Collaborators
