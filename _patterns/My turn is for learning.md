@@ -6,9 +6,9 @@ tags: introducing-mobbing
 
 # Context
 
-One member of the mob is missing the context (techical, domain, or both) for the
+One member of the mob is missing the context (technical, domain, or both) for the
 work at hand, and a whiteboarding session as introduction (see [Treasure Map](../patterns/Treasure%20Map.md))
-was not enough for them to be confidant in navigating. They can drive without a
+was not enough for them to be confident in navigating. They can drive without a
 problem, but when it's their turn to navigate they have no idea what to do. 
 
 [Grease the wheels](./Grease%20the%20wheels)  is not enough -- the navigator is
@@ -54,7 +54,7 @@ pause and ask for advice when they are navigating)*
 > learning.** Ask your questions, we'll whiteboard, we'll teach. Then, when the
 > timer is up we will go back to the code.
 
-Caution: this can come accross as "don't ask questions when it's not your turn".
+Caution: this can come across as "don't ask questions when it's not your turn".
 It's supposed to be the opposite. It's "we want you with us, and we will make 10 minutes out of
 every hour exclusively for you to ask questions and have our undivided
 attention". The goal is to make a safe place for that team member to learn and
@@ -79,7 +79,7 @@ the code / domain that they know enough to decide what to do next.
 As a side effect, this sets the tone in the mob for investigating weird things.
 When someone has a bad feeling about what's going on, and it's their turn to
 navigate, they're used to taking a rotation for learning. "Actually can we dig
-into this behaviour -- why is that happening? Shouldn't it be doing something
+into this behavior -- why is that happening? Shouldn't it be doing something
 else? Does anyone know how this thing actually works?"
 
 # Collaborators
