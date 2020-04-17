@@ -11,11 +11,11 @@ work at hand, and a whiteboarding session as introduction (see [Treasure Map](..
 was not enough for them to be confidant in navigating. They can drive without a
 problem, but when it's their turn to navigate they have no idea what to do. 
 
-[Navigate the Navigators](../patterns/Navigate%20The%20Navigators.md) is not
-enough -- even with tips and pointers from a more experience navigator, this
-team member cannot decide what to do next.
+[Grease the wheels](./Grease%20the%20wheels)  is not enough -- the navigator is
+unable to turn high level suggestions from the mob into actionable steps for the
+driver to take.
 
-[Treasure Map](../patterns/Treasure%20Map.md) is a good start, but there comes a
+[Treasure Map](./Treasure%20Map) is a good start, but there comes a
 point where more discussion won't help this team member, they need to see it in
 action and take some time for the new concepts to sink in.
 
@@ -84,5 +84,6 @@ else? Does anyone know how this thing actually works?"
 
 # Collaborators
 
- - [Navigate the Navigators](../patterns/Navigate%20The%20Navigators.md)
- - [Treasure Map](../patterns/Treasure%20Map.md)
+ - [Grease the wheels](./Grease%20the%20wheels)
+ - [Navigate the Navigators](./Navigate%20The%20Navigators)
+ - [Treasure Map](./Treasure%20Map)
