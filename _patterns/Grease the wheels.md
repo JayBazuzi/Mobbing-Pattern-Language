@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Also Known As
 - Feed the navigator
 
