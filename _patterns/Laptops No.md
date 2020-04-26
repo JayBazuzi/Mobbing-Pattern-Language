@@ -1,3 +1,8 @@
+---
+layout: default
+title: Laptops? No!
+---
+
 # Also Known As
 
 # Context
