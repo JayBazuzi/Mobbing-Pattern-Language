@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Also Known As
 
 # Context
