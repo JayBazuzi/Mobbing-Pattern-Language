@@ -33,7 +33,7 @@ and uncomfortable. Consider [My turn is for learning](./My turn is for
 learning).
 
 # Collaborators
- - [Navigate the Navigators](./Navigate%20The%20Navigators) (a more formalized
+ - [Navigate the Navigators](./Navigate%20the%20Navigators) (a more formalized
    version of Grease the wheels)
  - [Laptops? Yes!](./Laptops Yes)
  - [High-Performing Mob](./High-Performing%20Mob)
