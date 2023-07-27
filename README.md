@@ -1,6 +1,6 @@
 # Mobbing-Pattern-Language
 
-<a href="https://github.com/JayBazuzi/Mobbing-Pattern-Language"><img style="position: absolute; top: 0; right: 0; border: 0;"	src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>	
+<a href="https://github.com/JayBazuzi/Mobbing-Pattern-Language"><img decoding="async" loading="lazy" width="149" height="149" style="position: absolute; top: 0; right: 0; border: 0;" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_gray_6d6d6d.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>	
 
 Successful mobs don't all behave the same way. Sometimes a mob could be more successful but don't see what they might change.
 
