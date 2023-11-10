@@ -16,6 +16,7 @@ Either
 - Get going, reduce friction
 - Lower anxiety levels related to typing in public
 - Demo Driving skills
+- Could be used to convert a meeting to a working meeting ("Is it ok if we just *did it* right now?")
 
 # How To
 
