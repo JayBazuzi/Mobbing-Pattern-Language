@@ -1,5 +1,6 @@
 version: 2
 updates:
+
 - package-ecosystem: bundler
   directory: "/"
   schedule:
@@ -10,3 +11,31 @@ updates:
   - dependency-name: github-pages
     versions:
     - "213"
+  commit-message:
+    prefix: "- r "
+
+- package-ecosystem: "pip"
+  directory: "/"
+  schedule:
+    interval: "daily"
+  commit-message:
+    prefix: "- r "
+  groups:
+    approvals:
+        patterns:
+          - approvaltests
+          - approval-utilities
+
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: daily
+  commit-message:
+    prefix: "- r "
+
+- package-ecosystem: github-actions
+  directory: "/"
+  schedule:
+    interval: daily
+  commit-message:
+    prefix: "- e "
