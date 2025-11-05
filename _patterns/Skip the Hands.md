@@ -34,3 +34,5 @@ Requires audio setup where transcription picks up remote voices from speakers.
 # Collaborators
 
 **Narrate the Agent** - Related pattern for making AI work visible to mob
+
+[Mind Dump](https://lexler.github.io/augmented-coding-patterns/patterns/mind-dump/) - Similar pattern for dumping unfiltered thoughts into AI
